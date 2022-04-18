@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/drawable-v24/ic_baseline_library_books_24.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/drawable-v24/shapeone.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/drawable-v24/shapping.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/drawable-v24/shappingcont.xml" value="0.251" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/drawable/ic_avatarmen_background.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/drawable/ic_avatarmentwo_background.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/drawable/ic_avataryounggirl_background.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/drawable/ic_avataryoungmen_background.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/layout/activity_contact.xml" value="0.2" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/layout/activity_main.xml" value="0.17980072463768115" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/layout/main_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/layout/recycler.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/mipmap-anydpi-v26/ic_avatarmen.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/mipmap-anydpi-v26/ic_avatarmen_round.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/mipmap-anydpi-v26/ic_avatarmentwo.xml" value="0.2215" />
+        <entry key="..\:/Users/verng/AndroidStudioProjects/Pertemuan7_71190423/app/src/main/res/mipmap-anydpi-v26/ic_avatarmentwo_round.xml" value="0.2215" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
