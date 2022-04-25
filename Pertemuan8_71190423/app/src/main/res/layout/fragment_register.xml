@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pagetwonvidia">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9F000000"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/nvidialogologologo"/>
+
+        <TextView
+            android:id="@+id/Creater"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="19dp"
+            android:fontFamily="@font/geforce_bold"
+            android:gravity="left"
+            android:padding="1dp"
+            android:shadowColor="@color/text_shadow_white"
+            android:shadowDx="5"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:text="CREATE YOUR ACCOUNT"
+            android:textColor="#55FF00"
+            android:textSize="30sp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/NameRegister"
+            style="@android:style/Widget.Holo.Light.EditText"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shapping"
+            android:backgroundTint="#F36DD506"
+            android:drawableLeft="@drawable/ic_baseline_person_add_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/alata"
+            android:hint="Name"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHint="#335737"
+            android:textSize="14sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/emailRegister"
+            style="@android:style/Widget.Holo.Light.EditText"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/NameRegister"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shapping"
+            android:backgroundTint="#F36DD506"
+            android:drawableLeft="@drawable/ic_baseline_mail_outline_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/alata"
+            android:hint="Email"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHint="#335737"
+            android:textSize="14sp" />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            style="@android:style/Widget.Holo.Light.EditText"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userName"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shapping"
+            android:backgroundTint="#F36DD506"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/alata"
+            android:hint="Password"
+            android:inputType="text"
+            android:padding="5dp"
+            android:password="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHint="#335737"
+            android:textSize="14sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/confirmPassword"
+            style="@android:style/Widget.Holo.Light.EditText"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userName"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/shapping"
+            android:backgroundTint="#F36DD506"
+            android:drawableLeft="@drawable/ic_baseline_security_24"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/alata"
+            android:gravity=""
+            android:hint="Confirm Password"
+            android:inputType="text"
+            android:padding="5dp"
+            android:password="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColorHint="#335737"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="376dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/alata"
+            android:text="Accept Terms and Conditions"
+            android:textColor="@color/lime" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/createButton"
+            android:layout_width="176dp"
+            android:layout_height="55dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/shappingtwo"
+            android:backgroundTint="@color/button_background_color_6"
+            android:drawableRight="@drawable/ic_baseline_double_arrow_24_1"
+            android:drawablePadding="1dp"
+            android:fontFamily="@font/geforce_bold"
+            android:paddingLeft="25dp"
+            android:paddingRight="10dp"
+            android:text="CREATE"
+            android:textColor="@color/button_background_color_5"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
