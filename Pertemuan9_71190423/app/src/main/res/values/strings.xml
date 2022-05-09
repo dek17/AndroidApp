@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pertemuan9_71190423</string>
+    <string name="explore">EXPLORE FEATURES</string>
+    <string name="language">Language and Font Size</string>
+    <string name="SeekBar">Font Size</string>
+    <string name="Display">Display</string>
+    <string name="gsync">G-SYNC</string>
+    <string name="fps">FPS</string>
+    <string name="GeForceFeature">GeForce Feature</string>
+    <string name="rtx">RTX</string>
+    <string name="physx">PhysX</string>
+    <string name="LLM">Low Latency Mode</string>
+    <string name="Logout">LOG OUT</string>
+    <string name="Forgot">Forgot Password?</string>
+    <string name="LoginUI">LOG IN</string>
+    <string name="ButtonLogin">LOG IN</string>
+    <string name="Passcode">Password</string>
+
+
+
+
+    <string-array name="Languages" >
+        <item>English</item>
+        <item>Indonesia</item>
+    </string-array>
+
+
+
+
+</resources>
