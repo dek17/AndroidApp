@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/allLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/pagetwonvidia"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="51dp"
+        android:src="@drawable/nvidialogologologo"
+        app:layout_constraintBottom_toBottomOf="@+id/Creater"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Creater"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/geforce_bold"
+        android:gravity="left"
+        android:padding="1dp"
+        android:shadowColor="@color/text_shadow_white"
+        android:shadowDx="5"
+        android:shadowDy="1"
+        android:shadowRadius="5"
+        android:text="@string/explore"
+        android:textColor="#55FF00"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:background="#5B000000"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Creater"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#25000000"
+            android:fontFamily="@font/geforce_bold"
+            android:padding="10dp"
+            android:shadowColor="@color/green"
+            android:shadowDx="5"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:text="@string/language"
+            android:textColor="@color/lime"
+            android:textSize="35sp"
+            android:autoSizeMinTextSize="30sp"/>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/spinner"
+            android:autofillHints="Language"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:fontFamily="@font/geforce_bold"
+            android:gravity="center"
+            android:textColor="@color/lime"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:id="@+id/seekText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/geforce_bold"
+                android:gravity="center"
+                android:text="@string/SeekBar"
+                android:textSize="20sp"
+                android:textColor="@color/lime" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:progress="20"
+                android:min="15"
+                />
+
+            <TextView
+                android:id="@+id/size"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/geforce_bold"
+                android:gravity="center"
+                android:text=""
+                android:textColor="@color/lime"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#25000000"
+            android:fontFamily="@font/geforce_bold"
+            android:padding="10dp"
+            android:shadowColor="@color/green"
+            android:shadowDx="5"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:text="@string/Display"
+            android:textColor="@color/lime"
+            android:textSize="30sp"
+            android:autoSizeMinTextSize="20sp"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/gysncSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/geforce_bold"
+            android:paddingRight="10dp"
+            android:text="@string/gsync"
+            android:textColor="#55FF00"
+            android:textSize="20sp"
+            android:thumb="@drawable/thumb"
+            app:track="@drawable/track" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textFps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/geforce_bold"
+                android:text="@string/fps"
+                android:textColor="@color/lime"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/fps"
+                android:layout_width="41dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="290dp"
+                android:layout_marginRight="12dp"
+                android:background="@drawable/shappingtwo"
+                android:backgroundTint="@color/lime"
+                android:fontFamily="@font/geforce_bold"
+                android:gravity="center"
+                android:hint="30"
+                android:textColor="@color/green"
+                android:padding="3dp"
+                android:textColorHint="#335737" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rtxfeature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:background="#25000000"
+            android:fontFamily="@font/geforce_bold"
+            android:padding="10dp"
+            android:shadowColor="@color/green"
+            android:shadowDx="5"
+            android:shadowDy="1"
+            android:shadowRadius="5"
+            android:text="@string/GeForceFeature"
+            android:textColor="@color/lime"
+            android:textSize="30sp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/rtx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/geforce_bold"
+            android:paddingRight="15dp"
+            android:text="@string/rtx"
+            android:textColor="#55FF00"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:textSize="20sp"
+            android:thumb="@drawable/thumb_rtx"
+            app:showText="true"
+            app:switchTextAppearance="@style/SwitchTextAppearance"
+            app:thumbTextPadding="15dp"
+            app:track="@drawable/vectorswitch" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/physx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/geforce_bold"
+            android:paddingRight="20dp"
+            android:text="@string/physx"
+            android:textColor="#55FF00"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:textSize="20sp"
+            android:thumb="@drawable/thumb_rtx"
+            app:showText="true"
+            app:switchTextAppearance="@style/SwitchTextAppearance"
+            app:thumbTextPadding="15dp"
+            app:track="@drawable/vectorswitch" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/lowLatencyMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/geforce_bold"
+            android:paddingRight="15dp"
+            android:text="@string/LLM"
+            android:textColor="#55FF00"
+            android:textIsSelectable="false"
+            android:textOff="OFF"
+            android:textOn="ULTRA"
+            android:textSize="20sp"
+            android:thumb="@drawable/thumb_rtx"
+            app:showText="true"
+            app:switchTextAppearance="@style/SwitchTextAppearance"
+            app:thumbTextPadding="15dp"
+            app:track="@drawable/vectorswitch" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/logoutButton"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="-5dp"
+            android:layout_marginBottom="132dp"
+            android:backgroundTint="@color/button_background_color_6"
+            android:drawableRight="@drawable/ic_baseline_double_arrow_24_1"
+            android:drawablePadding="-19dp"
+            android:fontFamily="@font/geforce_bold"
+            android:paddingLeft="20dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="8dp"
+            android:text="@string/Logout"
+            android:textColor="@color/button_background_color_3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

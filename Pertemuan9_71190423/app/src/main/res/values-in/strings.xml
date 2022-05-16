@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pertemuan9_71190423</string>
+    <string name="explore">JELAJAH FITUR</string>
+    <string name="language">Bahasa dan Ukuran Huruf</string>
+    <string name="SeekBar">Ukuran Huruf</string>
+    <string name="Display">Tampilan</string>
+    <string name="gsync">G-SYNC</string>
+    <string name="fps">FPS</string>
+    <string name="GeForceFeature">Fitur GeForce</string>
+    <string name="rtx">RTX</string>
+    <string name="physx">PhysX</string>
+    <string name="LLM">Low Latency Mode</string>
+    <string name="Logout">KELUAR</string>
+    <string name="Forgot">Lupa Sandi?</string>
+    <string name="LoginUI"> MASUK</string>
+    <string name="ButtonLogin">MASUK</string>
+    <string name="Passcode">Sandi</string>
+
+
+</resources>
