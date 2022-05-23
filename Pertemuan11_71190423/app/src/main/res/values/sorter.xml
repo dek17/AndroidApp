@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sorter" >
+        <item>Name Ascending</item>
+        <item>Name Descending</item>
+        <item>Nim Ascending</item>
+        <item>Nim Descending</item>
+        <item>Ipk Ascending</item>
+        <item>Ipk Descending</item>
+
+
+    </string-array>
+</resources>
