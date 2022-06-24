@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundnavyori"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:srcCompat="@drawable/shapeone" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="319dp"
+        android:layout_height="223dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-320dp"
+        app:srcCompat="@drawable/login" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="258dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-30dp"
+        app:srcCompat="@drawable/wordlogo" />
+
+    <TextView
+        android:id="@+id/txtLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="LOG IN"
+        android:textColor="#1686FF"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/allerta"
+        android:gravity="center"
+        android:text="with"
+        android:textColor="#1686FF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/googleSignInBtn"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:animateLayoutChanges="true"
+        android:backgroundTint="@color/aqua"
+        android:drawableLeft="@drawable/googleresize"
+        android:text="Log In"
+        android:theme="@style/Theme.Material3.DynamicColors.Dark" />
+
+
+</LinearLayout>
+
+
+
